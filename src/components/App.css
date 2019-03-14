@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.filter label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #ccc;
+  padding: 3px 0;
+}
+
+li > span:nth-child(2) {
+  width: 100px;
+  text-align: center;
+}
+
+li > span:nth-child(3) {
+  width: 300px;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.pagination {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.pagination button {
+  margin: 3px;
+  cursor: pointer;
+}
